@@ -1,0 +1,181 @@
+[2019-02-02 11:15:28] main.INFO: /usr/bin/php -f /usr/share/nginx/sagemagento/bin/magento setup:di:compile 2>&1
+Compilation was started.
+%message% 0/7 [>---------------------------]   0% < 1 sec 50.0 MiB%message% 0/7 [>---------------------------]   0% < 1 sec 50.0 MiBProxies code generation... 0/7 [>---------------------------]   0% < 1 sec 50.0 MiB
+Proxies code generation... 1/7 [====>-----------------------]  14% 1 sec 54.0 MiB
+Repositories code generation... 1/7 [====>-----------------------]  14% 1 sec 54.0 MiB
+Repositories code generation... 2/7 [========>-------------------]  28% 7 secs 152.0 MiB
+Service data attributes generation... 2/7 [========>-------------------]  28% 7 secs 152.0 MiB
+Service data attributes generation... 3/7 [============>---------------]  42% 7 secs 152.0 MiB
+Application code generator... 3/7 [============>---------------]  42% 7 secs 152.0 MiB
+Application code generator... 4/7 [================>-----------]  57% 14 secs 174.0 MiB
+Interceptors generation... 4/7 [================>-----------]  57% 14 secs 174.0 MiB
+Interceptors generation... 5/7 [====================>-------]  71% 22 secs 190.0 MiB
+Area configuration aggregation... 5/7 [====================>-------]  71% 22 secs 190.0 MiB
+Area configuration aggregation... 6/7 [========================>---]  85% 27 secs 258.0 MiB
+Interception cache generation... 6/7 [========================>---]  85% 27 secs 258.0 MiB
+Interception cache generation... 7/7 [============================] 100% 29 secs 258.0 MiB
+Generated code and dependency injection configuration successfully. [] []
+[2019-02-02 11:16:48] main.INFO: /usr/bin/php -f /usr/share/nginx/sagemagento/bin/magento setup:static-content:deploy -f en_US 2>&1
+
+Deploy using quick strategy
+adminhtml/Magento/backend/en_US         0/2046              >--------------------------- 0% %    < 1 sec
+[1A[2Kadminhtml/Magento/backend/en_US         96/2046             =>-------------------------- 4% %    1 sec
+[1A[2Kadminhtml/Magento/backend/en_US         99/2046             =>-------------------------- 4% %    2 secs
+[1A[2Kadminhtml/Magento/backend/en_US         236/2046            ===>------------------------ 11% %   3 secs
+[1A[2Kadminhtml/Magento/backend/en_US         311/2046            ====>----------------------- 15% %   4 secs
+[1A[2Kadminhtml/Magento/backend/en_US         694/2046            =========>------------------ 33% %   5 secs
+[1A[2Kadminhtml/Magento/backend/en_US         895/2046            ============>--------------- 43% %   6 secs
+[1A[2Kadminhtml/Magento/backend/en_US         1176/2046           ================>----------- 57% %   7 secs
+[1A[2Kadminhtml/Magento/backend/en_US         1202/2046           ================>----------- 58% %   8 secs
+[1A[2Kadminhtml/Magento/backend/en_US         1475/2046           ====================>------- 72% %   9 secs
+[1A[2Kadminhtml/Magento/backend/en_US         1833/2046           =========================>-- 89% %   11 secs
+[1A[2Kadminhtml/Magento/backend/en_US         1834/2046           =========================>-- 89% %   14 secs
+[1A[2Kadminhtml/Magento/backend/en_US         1840/2046           =========================>-- 89% %   15 secs
+[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            348/2054            ====>----------------------- 16% %   1 sec
+[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            694/2054            =========>------------------ 33% %   2 secs
+[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            1108/2054           ===============>------------ 53% %   3 secs
+[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            1764/2054           ========================>--- 85% %   4 secs
+[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            1957/2054           ==========================>- 95% %   5 secs
+[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            1959/2054           ==========================>- 95% %   6 secs
+[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            1960/2054           ==========================>- 95% %   8 secs
+[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             0/2070              >--------------------------- 0% %    1 sec
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             32/2070             >--------------------------- 1% %    2 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             324/2070            ====>----------------------- 15% %   3 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             496/2070            ======>--------------------- 23% %   4 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             694/2070            =========>------------------ 33% %   5 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             921/2070            ============>--------------- 44% %   6 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1234/2070           ================>----------- 59% %   7 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1260/2070           =================>---------- 60% %   8 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1272/2070           =================>---------- 61% %   9 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1273/2070           =================>---------- 61% %   10 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1297/2070           =================>---------- 62% %   11 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1319/2070           =================>---------- 63% %   12 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1345/2070           ==================>--------- 64% %   13 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1373/2070           ==================>--------- 66% %   14 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1379/2070           ==================>--------- 66% %   15 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1402/2070           ==================>--------- 67% %   16 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1428/2070           ===================>-------- 68% %   17 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1457/2070           ===================>-------- 70% %   18 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1479/2070           ====================>------- 71% %   19 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1487/2070           ====================>------- 71% %   20 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1508/2070           ====================>------- 72% %   21 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1534/2070           ====================>------- 74% %   22 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1566/2070           =====================>------ 75% %   23 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1589/2070           =====================>------ 76% %   24 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1594/2070           =====================>------ 77% %   25 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1616/2070           =====================>------ 78% %   26 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1635/2070           ======================>----- 78% %   27 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1664/2070           ======================>----- 80% %   28 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1689/2070           ======================>----- 81% %   29 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1694/2070           ======================>----- 81% %   30 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1715/2070           =======================>---- 82% %   31 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1736/2070           =======================>---- 83% %   32 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1762/2070           =======================>---- 85% %   33 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1785/2070           ========================>--- 86% %   34 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1800/2070           ========================>--- 86% %   35 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1825/2070           ========================>--- 88% %   36 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1847/2070           ========================>--- 89% %   37 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1913/2070           =========================>-- 92% %   38 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1957/2070           ==========================>- 94% %   39 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1959/2070           ==========================>- 94% %   40 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1960/2070           ==========================>- 94% %   43 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             1967/2070           ==========================>- 95% %   44 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             2057/2070           ===========================> 99% %   45 secs
+[1A[2K[1A[2K[1A[2Kadminhtml/Magento/backend/en_US         2046/2046           ============================ 100% %  15 secs
+frontend/Magento/blank/en_US            2054/2054           ============================ 100% %  8 secs
+frontend/Magento/luma/en_US             2070/2070           ============================ 100% %  45 secs
+
+Execution time: 76.301599025726 [] []
