@@ -1,4 +1,5 @@
 <?php
+
 return [
     'backend' => [
         'frontName' => 'admin'
@@ -12,7 +13,7 @@ return [
             'default' => [
                 'host' => 'localhost',
                 'dbname' => 'magento2',
-                'username' => 'magento2',
+                'username' => 'magento',
                 'password' => 'q1w2e3r4t5',
                 'model' => 'mysql4',
                 'engine' => 'innodb',
