@@ -11,10 +11,10 @@ return [
         'table_prefix' => '',
         'connection' => [
             'default' => [
-                'host' => 'localhost',
-                'dbname' => 'magento2',
-                'username' => 'magento',
-                'password' => 'q1w2e3r4t5',
+                'host' => '172.17.0.2',
+                'dbname' => 'magenew',
+                'username' => 'root',
+                'password' => 'root',
                 'model' => 'mysql4',
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
