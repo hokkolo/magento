@@ -1,4 +1,4 @@
-FROM hokkolo/magento
+FROM hokkolo/magento:master
 RUN apt install -y git
 RUN git clone https://github.com/hokkolo/magento.git /var/www/magento2
 RUN rm -rf /var/www/html/*
